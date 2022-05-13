@@ -20,7 +20,7 @@ for k, v in pairs(data.raw["recipe"]) do
 
         if not already_needs_lingshi then
 
-            table.insert(v["ingredients"], { "灵石", 1 })
+            table.insert(v["ingredients"], { "灵石", 100 })
 
             -- debug, see what recipe looks like after being modified
             --log(serpent.block(data.raw["recipe"][k]))
